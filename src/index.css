@@ -1,0 +1,18 @@
+* {
+  --light-tomato: hsl(5, 100%, 95%);
+  --tomato: hsl(4, 100%, 67%);
+  --dark-tomato: hsl(339, 93%, 62%);
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(236, 8%, 64%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--charcoal-grey);
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

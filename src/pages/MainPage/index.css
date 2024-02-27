@@ -1,0 +1,37 @@
+.container {
+  height: 65vh;
+  width: 45vw;
+  background-color: var(--white);
+  border-radius: 25px;
+  box-shadow: 3px 4px 20px 0px rgba(0, 0, 0, 0.457);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.9rem;
+  box-sizing: border-box;
+}
+
+.container .bg-img {
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  background-image: url("../../../public/images/illustration-sign-up-desktop.svg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+
+  .container .bg-img {
+    width: 100%;
+    height: 35%;
+    background-image: url("../../../public/images/illustration-sign-up-mobile.svg");
+    background-size: cover;
+  }
+}

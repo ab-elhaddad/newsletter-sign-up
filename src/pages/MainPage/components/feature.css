@@ -1,0 +1,25 @@
+.feature {
+  display: flex;
+  align-items: center;
+}
+
+.feature img {
+  width: 1.1rem;
+  aspect-ratio: 1/1;
+  margin-right: 0.5rem;
+}
+
+.feature p {
+  font-size: 0.75vw;
+  font-weight: 400;
+  margin: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .feature p {
+    font-size: 4vw;
+  }
+  .feature img {
+    width: 1.3rem;
+  }
+}

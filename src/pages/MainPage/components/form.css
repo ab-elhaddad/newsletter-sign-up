@@ -1,0 +1,73 @@
+* {
+  --input-border: hsl(0, 10%, 79%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.labels {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.7vw;
+  font-weight: 700;
+}
+
+.l-2 {
+  color: var(--tomato);
+}
+
+form input {
+  border: solid 0.5px var(--input-border);
+  padding: 0.7rem;
+  box-sizing: border-box;
+  font-size: 0.75vw;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+from form input::placeholder {
+  color: var(--grey);
+}
+
+form input:focus {
+  outline: none;
+  border: solid 1px;
+}
+
+form button {
+  padding: 0.7rem;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 0.8vw;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--dark-slate-grey);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+form button:hover {
+  background-color: var(--tomato);
+  box-shadow: 0px 7px 13px 2px hsl(4, 100%, 67%, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+  .labels {
+    font-size: 3.5vw;
+  }
+  form input,
+  form button {
+    font-size: 3.5vw;
+    height: 6vh;
+    border-radius: 10px;
+  }
+}

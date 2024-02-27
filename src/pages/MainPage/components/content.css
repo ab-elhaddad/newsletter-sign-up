@@ -1,0 +1,38 @@
+.content {
+  width: 50%;
+  color: var(--dark-slate-grey);
+  margin-left: 2.2rem;
+  margin-top: 0.5rem;
+  padding-right: 3rem;
+}
+
+.content .p-1 {
+  font-size: 2.6vw;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.content .p-2 {
+  font-size: 0.9vw;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 0;
+    padding: 0 7vw;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .content .p-1 {
+    font-size: 12vw;
+  }
+
+  .content .p-2 {
+    font-size: 4.5vw;
+  }
+}
