@@ -4,4 +4,4 @@ This is a simple responsive newsletter signup form built using [React](https://r
 
 ## Live Demo
 
-[Newsletter Signup](dummylink)
+[Newsletter Signup](https://newsletter-sign-up-5gqu.onrender.com)
